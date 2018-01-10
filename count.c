@@ -2,10 +2,10 @@
 int main()
 {
 long long n;
-int count = 0;
+int count =0;
 printf("Enter an integer: ");
 scanf("%lld", &n);
-while(n != 0)
+while(n!= 0)
 {
 n /= 10;
 ++count;
