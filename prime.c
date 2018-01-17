@@ -1,7 +1,9 @@
 #include <stdio.h>
-int main()
+#include<conio.h>
+voidmain()
 {
 int n, i,temp= 0;
+  clrscr();
 printf("Enter a positive integer: ");
 scanf("%d",&n);
 for(i=2; i<=n/2; ++i)
@@ -16,5 +18,5 @@ if(temp==0)
 printf("%d is a prime number.",n);
 else
 printf("%d is not a prime number.",n);
-return0;
+getch();
 }
