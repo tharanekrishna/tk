@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include<conio.h.
 int main()
 {
     int a, b, i, flag, temp;
+    clrscr();
     printf("Enter two numbers(intevals): ");
     scanf("%d %d", &low, &high);
     if (a > b) {
@@ -31,5 +33,5 @@ int main()
         ++low;
     }
 
-    return 0;
+  getch();
 }
