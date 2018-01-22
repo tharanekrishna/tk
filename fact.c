@@ -1,7 +1,7 @@
 #include<stdio.h>
-#include<math.h
+#include<math.h>
 #include<conio.h>
-int main()
+void main()
 {
 int n,i,fact=1;
 clrscr();
@@ -12,4 +12,5 @@ for (i=1;i<=n;i++)
 fact=fact*i;
 }
 printf("%d",&fact);
+  getch();
 }
