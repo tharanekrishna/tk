@@ -1,5 +1,5 @@
 #include<stdio.h> 
-int main()
+void main()
 {
 int a[10],i,n;
 printf("enter array element");
@@ -14,5 +14,4 @@ if(low<high)
 	mid=(low+high)/2;
 	printf("\n%d",mid);
 }
-return 0;
 }
