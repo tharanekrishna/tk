@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include<conio.h>
 void main()
 {
   int a[5],n;
+  clrscr();
   printf("Enter the no of element:");
   scanf("%d",&n);
   printf("Elements are:");
@@ -13,6 +15,6 @@ void main()
   {
     printf("%d\t%d\n",i,a[i]);
   }
-  return 0;
+  getch();
 }
   
