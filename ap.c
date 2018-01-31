@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <math.h>
+#include<conio.h>
  
 int main()
 {
      int a, d, n, i, tn;
      int sum = 0;
- 
+ clrscr();
      printf("Enter the first term value of the A.P. series: ");
      scanf("%d", &a);
      printf("Enter the total numbers in the A.P. series: ");
@@ -22,5 +23,5 @@ int main()
           else
                printf("%d = %d ", i, sum);
      }
-     return 0;
+     getch();
 }
