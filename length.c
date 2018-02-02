@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include,conio.h>
+#include<conio.h>
 void main()
 {
 char str[200];
@@ -9,5 +9,5 @@ printf("\n enter the string");
 scanf("%d",&str);
 a=strlen(str);
 printf("\n the length of string is %d",a);
-gech();
+getch();
 }
