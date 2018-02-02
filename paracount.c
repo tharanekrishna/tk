@@ -14,6 +14,6 @@ int main()
             nm++;
 }  
 }
-printf(" ttl prgf=%d",nm+1);
+printf(" total paragraph=%d",nm+1);
 getch();
 }
