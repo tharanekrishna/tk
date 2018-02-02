@@ -16,4 +16,4 @@ int main()
 }
 printf(" total paragraph=%d",nm+1);
 getch();
-}
+}            
