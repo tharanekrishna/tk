@@ -1,8 +1,11 @@
 #include<stdio.h>
-int main()
+#include<conio.h>
+
+void  main()
 {
 int i,j,a,b;
 char x[20],y[50];
+  clrscr();
 printf("enter the first string\n");
 scanf("%s",x);
 printf("enter second string\n");
@@ -21,5 +24,5 @@ else
 {
 printf("strings are equal");
 }
-return 0;
+getch();
 }
